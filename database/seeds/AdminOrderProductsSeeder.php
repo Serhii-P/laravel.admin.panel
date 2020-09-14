@@ -2,7 +2,6 @@
 
 use Illuminate\Database\Seeder;
 
-
 class AdminOrderProductsSeeder extends Seeder
 {
     /**
@@ -12,7 +11,6 @@ class AdminOrderProductsSeeder extends Seeder
      */
     public function run()
     {
-
         $data = [];
 
 
@@ -30,6 +28,6 @@ class AdminOrderProductsSeeder extends Seeder
 
 
         DB::table('order_products')->insert($data);
-    }
 
+    }
 }
